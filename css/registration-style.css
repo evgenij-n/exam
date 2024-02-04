@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    border: 0;
+    background: transparent;
+    font-family: 'Inter', sans-serif;
+    animation: body 2s;
+}
+@keyframes body {
+    0% {
+        opacity: 0;
+    };
+    100% {
+        opacity: 1;
+    }
+}
+body {
+    width: 100%;
+    background-image: url(../images/registr-back.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center;
+    animation: body 3s;
+}
+.logo {
+    width: 150px;
+    margin-top: 20px;
+    transition: all 1s;
+}
+.logo:hover {
+    transform: scale(1.1);
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    font-size: 30px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 700;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.reg-wrap {
+    gap: 10px;
+    padding: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    background: transparent;
+    backdrop-filter: blur(5px);
+}
+.form {
+    width: 100%;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input {
+    padding-left: 10px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    outline: none;
+    transition: all 1s;
+}
+input:focus {
+    border-color: rgba(255, 115, 73, 0.5);
+}
+.forget {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    transition: all 0.5s;
+}
+.text-hover:hover {
+    color: #ff7349;
+}
+.text {
+    font-weight: 400;
+    color: white;
+}
+.enter {
+    gap: 10px;
+    margin: 10px 0;
+}
+.btn {
+    color: black;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: all 0.5s;
+}
+.btn:hover {
+    background-color: rgba(255, 115, 73, 0.8);
+    border-color: rgba(255, 115, 73, 0.5);
+    color: white;
+}
+.center {
+    text-align: center;
+}
+.soc {
+    margin-top: 5px;
+}
+.soc a>i {
+    margin: 0px 5px;
+    font-size: 22px;
+    transition: all 0.5s;
+}
